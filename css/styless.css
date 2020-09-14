@@ -19,12 +19,16 @@ body {
     --baseColor: #1d2029;
     --switchSpinner: white;
     --switch: #5f616d;
-  }
+    }
 .wrapper{
     padding: 0 30px;
 }
+.grid {
+    display: grid;
+    grid-row-gap: 25px;
+}
 .card {
-    border-radius: 5px;
+    border-radius: 8px;
     overflow: hidden;
     background-color: #f0f3fa;
     text-align: center;
@@ -50,7 +54,6 @@ body {
 .card-followers-number{
     font-size: 50px;
     font-weight: 700;
-    
 }
 .card-followers-title{
     display: block;
